@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a286c645ab5cc8188e6669ea24b1036",
+    "revision": "93c49de514419dd7fbd91b37d8fc0b67",
     "url": "/fcc_pomodoro_clock/index.html"
   },
   {
-    "revision": "b3f703cd577ae113f776",
-    "url": "/fcc_pomodoro_clock/static/css/main.0cdcf64c.chunk.css"
+    "revision": "b1ecd74bae9efdd09cf1",
+    "url": "/fcc_pomodoro_clock/static/css/main.a2b8143c.chunk.css"
   },
   {
     "revision": "2e90760c531bffb4c35f",
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fcc_pomodoro_clock/static/js/2.47a4f3e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3f703cd577ae113f776",
-    "url": "/fcc_pomodoro_clock/static/js/main.b859a8b5.chunk.js"
+    "revision": "b1ecd74bae9efdd09cf1",
+    "url": "/fcc_pomodoro_clock/static/js/main.76b73078.chunk.js"
   },
   {
     "revision": "92d23d964912cd2017f9",
     "url": "/fcc_pomodoro_clock/static/js/runtime-main.78a4f953.js"
-  },
-  {
-    "revision": "fff9f0194725f5d0c7c9c02d2638d953",
-    "url": "/fcc_pomodoro_clock/static/media/play-multimedia-outlined-button-circle-svgrepo-com.fff9f019.svg"
   },
   {
     "revision": "7e62db55727d81db18d8eef5d891953d",
