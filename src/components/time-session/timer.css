@@ -1,0 +1,83 @@
+.timer-clock {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.timer-clock .time {
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../assets/tomato-svgrepo-com.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timer-clock .session-name {
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.timer-clock .time-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 3.5rem;
+  color: red;
+  letter-spacing: 2px;
+  border: 2px solid gray;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 55px;
+}
+
+.timer-clock .controlers {
+  margin-top: 20px;
+}
+
+.timer-clock .controlers button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px;
+  z-index: 99;
+}
+
+.timer-clock .play {
+  background-image: url("https://img.icons8.com/ios/100/000000/circled-play.png");
+}
+
+.timer-clock .refresh {
+  background-image: url("../assets/refresh-svgrepo-com.svg");
+}
+/*# sourceMappingURL=timer.css.map */

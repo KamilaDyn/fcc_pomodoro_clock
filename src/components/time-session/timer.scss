@@ -1,0 +1,62 @@
+.timer-clock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  .time {
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/tomato-svgrepo-com.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .session-name {
+    letter-spacing: 2px;
+    color: #fff;
+  }
+
+  .time-left {
+    display: flex;
+    font-size: 3.5rem;
+    color: red;
+    letter-spacing: 2px;
+    border: 2px solid gray;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 55px;
+  }
+
+  .controlers {
+    margin-top: 20px;
+
+    button {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 0 5px;
+      z-index: 99;
+    }
+  }
+
+  .play {
+    background-image: url("https://img.icons8.com/ios/100/000000/circled-play.png");
+  }
+
+  .refresh {
+    background-image: url("../assets/refresh-svgrepo-com.svg");
+  }
+}

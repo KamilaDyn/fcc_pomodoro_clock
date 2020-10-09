@@ -1,0 +1,37 @@
+.title {
+    color: rgb(194, 65, 65);
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.setting-length {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .break,
+    .session {
+        font-size: 1.4rem;
+        margin: 0 20px;
+        color: white;
+    }
+
+    button {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background-color: white;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: bold;
+        margin: 0 5px;
+    }
+
+    button:disabled {
+        cursor: not-allowed;
+    }
+}

@@ -1,0 +1,44 @@
+.title {
+  color: #c24141;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid red;
+  margin-bottom: 20px;
+}
+
+.setting-length {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.setting-length .break,
+.setting-length .session {
+  font-size: 1.4rem;
+  margin: 0 20px;
+  color: white;
+}
+
+.setting-length button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.setting-length button:disabled {
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=pomodoro.css.map */
