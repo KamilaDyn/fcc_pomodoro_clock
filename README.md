@@ -8,6 +8,10 @@ Pomodoro Clock
 
 It is Front end libraries project from Free Code Camp. <a href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock" target="_blank">see free code camp</a>
 
+## Demo View
+
+<img src="./demo/demo.gif" width="500" height="400" />
+
 ## Technologies / tools used
 
 1. React
